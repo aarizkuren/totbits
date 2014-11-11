@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Validación usuario Totbits</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+</head>
+<body>
+    <div id="container">
+        <form id="login" name="login" class="form-signin form-horizontal" role="form">
+            <h2 class="form-signin-heading">Inicia sesión</h2>
+            <div class="control-group" id="div-control">
+                <label for="user" class="control-label hide" id="label">Usuario o contraseña incorrectos</label>
+                    <input type="text" name="user" id="user" placeholder="Usuario" class="form-control" required autofocus>
+                    <input type="password" name="pwd" id="pwd" placeholder="Contraseña" class="form-control" required>
+                    <button class="btn btn-primary btn-block" type="submit">Login</button>
+            </div>
+        </form>
+    </div>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
